@@ -1,0 +1,58 @@
+.img1 {
+  width: 28%;
+  position: absolute;
+  left: 5%;
+  top: 110px;
+  border-radius: 15px;
+  
+}
+.test a{
+  display: flex;
+  justify-content: center;
+
+}
+.test {
+  display: flex;
+  justify-content: center;
+
+}
+.img2 {
+  width: 28%;
+  position: absolute;
+  top: 110px;
+  border-radius: 15px;
+}
+
+.img3 {
+  width: 28%;
+  position: absolute;
+  right: 5%;
+  top: 110px;
+  border-radius: 15px;
+}
+
+
+.img4 {
+  width: 28%;
+  position: absolute;
+  left: 5%;
+  top: 55%;
+  border-radius: 15px;
+}
+
+.img5 {
+  width: 28%;
+  position: absolute;
+  top: 55%;
+  border-radius: 15px
+}
+
+.img6 {
+  width: 28%;
+  position: absolute;
+  right: 5%;
+  top: 55%;
+  border-radius: 15px;
+}
+
+

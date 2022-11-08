@@ -1,0 +1,105 @@
+.container {
+    height: 50px;
+    width: 100%;
+    background-color: #94A7AE;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar a {
+    
+    display: inline-block;
+    padding: 13px 18px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 50px;
+    
+  }
+  
+.navbar a:hover {
+    background: #000000;
+    color: white;
+  }
+  
+.content{
+    overflow: hidden;
+}
+
+.content h1 {
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+
+.content p {
+    text-align: center;
+    font-size: 25px;
+}
+.video {
+    display: block;
+    width: 70%;
+    margin: 0 auto 35px;   
+    margin-top: 100px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #94A7AE;
+}
+
+
+
+.footer #gauche {
+    position: absolute;
+    left: 0%;
+}
+.footer #center {
+    text-align: center;
+}
+
+.footer #right {
+    position: absolute;
+    right: 0%;
+}
+
+body{ height: 100%; background-color: #F4F2F3;}
+
+body::after{ content:''; display:block; height:100px; }
+
+.content h2 {
+    text-align: center;
+    top: 1%;
+
+
+}
+
+body .typewriter {
+    display: flex;
+}
+/* GLOBAL STYLES */
+
+  
+  /* DEMO-SPECIFIC STYLES */
+  .typewriter h1 {
+    color: rgb(19, 17, 17);
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .15s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
