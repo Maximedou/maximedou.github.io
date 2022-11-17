@@ -1,0 +1,1 @@
+alert("Toutes les images du site proviennent de Riot Games : https://www.riotgames.com/fr")

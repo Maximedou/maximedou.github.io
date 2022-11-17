@@ -1,332 +1,396 @@
-.left1 {
-  cursor: pointer;
-  position: absolute;
-  overflow: hidden;
-  text-align: center;
-  width: 28%;
-  top: 110px;
-  left: 5%;
-  border-radius: 15px;
-}
-.left1 .fadedbox {
-  background-color: #666666;
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: #fff;
-  -webkit-transition: all 300ms ease-out;
-  -moz-transition: all 300ms ease-out;
-  -o-transition: all 300ms ease-out;
-  -ms-transition: all 300ms ease-out;
-  transition: all 300ms ease-out;
-  opacity: 0;
-  width: 100%;
-  padding: 130px 20px;
-}
-.left1:hover .fadedbox {
-  opacity: 0.8;
-}
-.left1 .text {
-  -webkit-transition: all 300ms ease-out;
-  -moz-transition: all 300ms ease-out;
-  -o-transition: all 300ms ease-out;
-  -ms-transition: all 300ms ease-out;
-  transition: all 300ms ease-out;
-  transform: translateY(30px);
-  -webkit-transform: translateY(30px);
-}
-.left1 .title {
-  font-size: 2.5em;
-  text-transform: uppercase;
-  opacity: 0;
-  transition-delay: 0.2s;
-  transition-duration: 0.3s;
-}
-.left1:hover .title,
-.left1:focus .title {
-  opacity: 1;
-  transform: translateY(0px);
-  -webkit-transform: translateY(0px);
-}
-.img1 {
-  width: 100%;
+
+.left1
+{
+	cursor: pointer;
+	position: absolute;
+	overflow: hidden;
+	text-align: center;
+	width: 28%;
+	top: 110px;
+	left: 5%;
+	border-radius: 15px;
 }
 
-.middle1 {
-    cursor: pointer;
-    position: absolute;
-    overflow: hidden;
-    text-align: center;
-    width: 28%;
-    top: 110px;
-    left: 36%;
-    border-radius: 15px;
+.left1 .fadedbox
+{
+	background-color: #666666;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	opacity: 0;
+	width: 100%;
+	padding: 130px 20px;
 }
 
-.middle1 .fadedbox {
-  background-color: #666666;
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: #fff;
-  -webkit-transition: all 300ms ease-out;
-  -moz-transition: all 300ms ease-out;
-  -o-transition: all 300ms ease-out;
-  -ms-transition: all 300ms ease-out;
-  transition: all 300ms ease-out;
-  opacity: 0;
-  width: 100%;
-  padding: 130px 20px;
-}
-.middle1:hover .fadedbox {
-  opacity: 0.8;
-}
-.middle1 .text {
-  -webkit-transition: all 300ms ease-out;
-  -moz-transition: all 300ms ease-out;
-  -o-transition: all 300ms ease-out;
-  -ms-transition: all 300ms ease-out;
-  transition: all 300ms ease-out;
-  transform: translateY(30px);
-  -webkit-transform: translateY(30px);
-}
-.middle1 .title {
-  font-size: 2.5em;
-  text-transform: uppercase;
-  opacity: 0;
-  transition-delay: 0.2s;
-  transition-duration: 0.3s;
-}
-.middle1:hover .title,
-.middle1:focus .title {
-  opacity: 1;
-  transform: translateY(0px);
-  -webkit-transform: translateY(0px);
+.left1:hover .fadedbox
+{
+	opacity: 0.8;
 }
 
-.img2 {
-  width: 100%;
+.left1 .text
+{
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	transform: translateY(30px);
+	-webkit-transform: translateY(30px);
 }
 
-.right1 {
-  cursor: pointer;
-  position: absolute;
-  overflow: hidden;
-  text-align: center;
-  width: 28%;
-  top: 110px;
-  right: 5%;
-  border-radius: 15px;
+.left1 .title
+{
+	font-size: 2.5em;
+	text-transform: uppercase;
+	opacity: 0;
+	transition-delay: 0.2s;
+	transition-duration: 0.3s;
 }
 
-.right1 .fadedbox {
-background-color: #666666;
-position: absolute;
-top: 0;
-left: 0;
-color: #fff;
--webkit-transition: all 300ms ease-out;
--moz-transition: all 300ms ease-out;
--o-transition: all 300ms ease-out;
--ms-transition: all 300ms ease-out;
-transition: all 300ms ease-out;
-opacity: 0;
-width: 100%;
-padding: 130px 20px;
-}
-.right1:hover .fadedbox {
-opacity: 0.8;
-}
-.right1 .text {
--webkit-transition: all 300ms ease-out;
--moz-transition: all 300ms ease-out;
--o-transition: all 300ms ease-out;
--ms-transition: all 300ms ease-out;
-transition: all 300ms ease-out;
-transform: translateY(30px);
--webkit-transform: translateY(30px);
-}
-.right1 .title {
-font-size: 2.5em;
-text-transform: uppercase;
-opacity: 0;
-transition-delay: 0.2s;
-transition-duration: 0.3s;
-}
-.right1:hover .title,
-.right1:focus .title {
-opacity: 1;
-transform: translateY(0px);
--webkit-transform: translateY(0px);
-}
-.img3 {
-  width: 100%;
+.left1:hover .title,.left1:focus .title
+{
+	opacity: 1;
+	transform: translateY(0px);
+	-webkit-transform: translateY(0px);
 }
 
-.left2 {
-  cursor: pointer;
-  position: absolute;
-  overflow: hidden;
-  text-align: center;
-  width: 28%;
-  top: 55%;
-  left: 5%;
-  border-radius: 15px;
-}
-.left2 .fadedbox {
-  background-color: #666666;
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: #fff;
-  -webkit-transition: all 300ms ease-out;
-  -moz-transition: all 300ms ease-out;
-  -o-transition: all 300ms ease-out;
-  -ms-transition: all 300ms ease-out;
-  transition: all 300ms ease-out;
-  opacity: 0;
-  width: 100%;
-  padding: 130px 20px;
-}
-.left2:hover .fadedbox {
-  opacity: 0.8;
-}
-.left2 .text {
-  -webkit-transition: all 300ms ease-out;
-  -moz-transition: all 300ms ease-out;
-  -o-transition: all 300ms ease-out;
-  -ms-transition: all 300ms ease-out;
-  transition: all 300ms ease-out;
-  transform: translateY(30px);
-  -webkit-transform: translateY(30px);
-}
-.left2 .title {
-  font-size: 2.5em;
-  text-transform: uppercase;
-  opacity: 0;
-  transition-delay: 0.2s;
-  transition-duration: 0.3s;
-}
-.left2:hover .title,
-.left2:focus .title {
-  opacity: 1;
-  transform: translateY(0px);
-  -webkit-transform: translateY(0px);
-}
-.img4 {
-  width: 100%;
+.img1
+{
+	width: 100%;
 }
 
-.middle2 {
-  cursor: pointer;
-  position: absolute;
-  overflow: hidden;
-  text-align: center;
-  width: 28%;
-  top: 55%;
-  left: 36%;
-  border-radius: 15px;
+.middle1
+{
+	cursor: pointer;
+	position: absolute;
+	overflow: hidden;
+	text-align: center;
+	width: 28%;
+	top: 110px;
+	left: 36%;
+	border-radius: 15px;
 }
 
-.middle2 .fadedbox {
-background-color: #666666;
-position: absolute;
-top: 0;
-left: 0;
-color: #fff;
--webkit-transition: all 300ms ease-out;
--moz-transition: all 300ms ease-out;
--o-transition: all 300ms ease-out;
--ms-transition: all 300ms ease-out;
-transition: all 300ms ease-out;
-opacity: 0;
-width: 100%;
-padding: 130px 20px;
-}
-.middle2:hover .fadedbox {
-opacity: 0.8;
-}
-.middle2 .text {
--webkit-transition: all 300ms ease-out;
--moz-transition: all 300ms ease-out;
--o-transition: all 300ms ease-out;
--ms-transition: all 300ms ease-out;
-transition: all 300ms ease-out;
-transform: translateY(30px);
--webkit-transform: translateY(30px);
-}
-.middle2 .title {
-font-size: 2.5em;
-text-transform: uppercase;
-opacity: 0;
-transition-delay: 0.2s;
-transition-duration: 0.3s;
-}
-.middle2:hover .title,
-.middle2:focus .title {
-opacity: 1;
-transform: translateY(0px);
--webkit-transform: translateY(0px);
-}
-.img5 {
-  width: 100%;
+.middle1 .fadedbox
+{
+	background-color: #666666;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	opacity: 0;
+	width: 100%;
+	padding: 130px 20px;
 }
 
-.right2 {
-  cursor: pointer;
-  position: absolute;
-  overflow: hidden;
-  text-align: center;
-  width: 28%;
-  top: 55%;
-  right: 5%;
-  border-radius: 15px;
+.middle1:hover .fadedbox
+{
+	opacity: 0.8;
 }
 
-.right2 .fadedbox {
-background-color: #666666;
-position: absolute;
-top: 0;
-left: 0;
-color: #fff;
--webkit-transition: all 300ms ease-out;
--moz-transition: all 300ms ease-out;
--o-transition: all 300ms ease-out;
--ms-transition: all 300ms ease-out;
-transition: all 300ms ease-out;
-opacity: 0;
-width: 100%;
-padding: 130px 20px;
-}
-.right2:hover .fadedbox {
-opacity: 0.8;
-}
-.right2 .text {
--webkit-transition: all 300ms ease-out;
--moz-transition: all 300ms ease-out;
--o-transition: all 300ms ease-out;
--ms-transition: all 300ms ease-out;
-transition: all 300ms ease-out;
-transform: translateY(30px);
--webkit-transform: translateY(30px);
-}
-.right2 .title {
-font-size: 2.5em;
-text-transform: uppercase;
-opacity: 0;
-transition-delay: 0.2s;
-transition-duration: 0.3s;
-}
-.right2:hover .title,
-.right2:focus .title {
-opacity: 1;
-transform: translateY(0px);
--webkit-transform: translateY(0px);
+.middle1 .text
+{
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	transform: translateY(30px);
+	-webkit-transform: translateY(30px);
 }
 
-.img6 {
-  width: 100%;
+.middle1 .title
+{
+	font-size: 2.5em;
+	text-transform: uppercase;
+	opacity: 0;
+	transition-delay: 0.2s;
+	transition-duration: 0.3s;
 }
 
+.middle1:hover .title,.middle1:focus .title
+{
+	opacity: 1;
+	transform: translateY(0px);
+	-webkit-transform: translateY(0px);
+}
 
+.img2
+{
+	width: 100%;
+}
 
+.right1
+{
+	cursor: pointer;
+	position: absolute;
+	overflow: hidden;
+	text-align: center;
+	width: 28%;
+	top: 110px;
+	right: 5%;
+	border-radius: 15px;
+}
+
+.right1 .fadedbox
+{
+	background-color: #666666;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	opacity: 0;
+	width: 100%;
+	padding: 130px 20px;
+}
+
+.right1:hover .fadedbox
+{
+	opacity: 0.8;
+}
+
+.right1 .text
+{
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	transform: translateY(30px);
+	-webkit-transform: translateY(30px);
+}
+
+.right1 .title
+{
+	font-size: 2.5em;
+	text-transform: uppercase;
+	opacity: 0;
+	transition-delay: 0.2s;
+	transition-duration: 0.3s;
+}
+
+.right1:hover .title,.right1:focus .title
+{
+	opacity: 1;
+	transform: translateY(0px);
+	-webkit-transform: translateY(0px);
+}
+
+.img3
+{
+	width: 100%;
+}
+
+.left2
+{
+	cursor: pointer;
+	position: absolute;
+	overflow: hidden;
+	text-align: center;
+	width: 28%;
+	top: 55%;
+	left: 5%;
+	border-radius: 15px;
+}
+
+.left2 .fadedbox
+{
+	background-color: #666666;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	opacity: 0;
+	width: 100%;
+	padding: 130px 20px;
+}
+
+.left2:hover .fadedbox
+{
+	opacity: 0.8;
+}
+
+.left2 .text
+{
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	transform: translateY(30px);
+	-webkit-transform: translateY(30px);
+}
+
+.left2 .title
+{
+	font-size: 2.5em;
+	text-transform: uppercase;
+	opacity: 0;
+	transition-delay: 0.2s;
+	transition-duration: 0.3s;
+}
+
+.left2:hover .title,.left2:focus .title
+{
+	opacity: 1;
+	transform: translateY(0px);
+	-webkit-transform: translateY(0px);
+}
+
+.img4
+{
+	width: 100%;
+}
+
+.middle2
+{
+	cursor: pointer;
+	position: absolute;
+	overflow: hidden;
+	text-align: center;
+	width: 28%;
+	top: 55%;
+	left: 36%;
+	border-radius: 15px;
+}
+
+.middle2 .fadedbox
+{
+	background-color: #666666;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	opacity: 0;
+	width: 100%;
+	padding: 130px 20px;
+}
+
+.middle2:hover .fadedbox
+{
+	opacity: 0.8;
+}
+
+.middle2 .text
+{
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	transform: translateY(30px);
+	-webkit-transform: translateY(30px);
+}
+
+.middle2 .title
+{
+	font-size: 2.5em;
+	text-transform: uppercase;
+	opacity: 0;
+	transition-delay: 0.2s;
+	transition-duration: 0.3s;
+}
+
+.middle2:hover .title,.middle2:focus .title
+{
+	opacity: 1;
+	transform: translateY(0px);
+	-webkit-transform: translateY(0px);
+}
+
+.img5
+{
+	width: 100%;
+}
+
+.right2
+{
+	cursor: pointer;
+	position: absolute;
+	overflow: hidden;
+	text-align: center;
+	width: 28%;
+	top: 55%;
+	right: 5%;
+	border-radius: 15px;
+}
+
+.right2 .fadedbox
+{
+	background-color: #666666;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	opacity: 0;
+	width: 100%;
+	padding: 130px 20px;
+}
+
+.right2:hover .fadedbox
+{
+	opacity: 0.8;
+}
+
+.right2 .text
+{
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	transform: translateY(30px);
+	-webkit-transform: translateY(30px);
+}
+
+.right2 .title
+{
+	font-size: 2.5em;
+	text-transform: uppercase;
+	opacity: 0;
+	transition-delay: 0.2s;
+	transition-duration: 0.3s;
+}
+
+.right2:hover .title,.right2:focus .title
+{
+	opacity: 1;
+	transform: translateY(0px);
+	-webkit-transform: translateY(0px);
+}
+
+.img6
+{
+	width: 100%;
+}

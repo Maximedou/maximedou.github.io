@@ -1,209 +1,249 @@
-.container {
-    height: 50px;
-    width: 100%;
-    background-color: #94A7AE;
+
+.container
+{
+	height: 50px;
+	width: 100%;
+	background-color: #94A7AE;
 }
 
-.navbar {
-    text-align: center;
+.navbar
+{
+	text-align: center;
 }
 
-.navbar a {
-    
-    display: inline-block;
-    padding: 13px 18px;
-    text-decoration: none;
-    font-size: 17px;
-    height: 50px;
-    
-  }
-  
-.navbar a:hover {
-    background: #000000;
-    color: white;
-  }
-  
-.content{
-    overflow: hidden;
+.navbar a
+{
+	display: inline-block;
+	padding: 13px 18px;
+	text-decoration: none;
+	font-size: 17px;
+	height: 50px;
 }
 
-.content h1 {
-    position: relative;
-    text-align: center;
+.navbar a:hover
+{
+	background: #000000;
+	color: white;
 }
 
-.content p {
-    text-align: center;
-    font-size: 25px;
-}
-.video {
-    display: block;
-    width: 70%;
-    margin: 0 auto 35px;   
-    margin-top: 100px;
+.content
+{
+	overflow: hidden;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    height: 50px;
-    width: 100%;
-    background-color: #94A7AE;
+.content h1
+{
+	position: relative;
+	text-align: center;
 }
 
-
-
-.footer #gauche {
-    position: absolute;
-    left: 0%;
-}
-.footer #center {
-    text-align: center;
+.content p
+{
+	text-align: center;
+	font-size: 25px;
 }
 
-.footer #right {
-    position: absolute;
-    right: 0%;
+.video
+{
+	display: block;
+	width: 70%;
+	margin: 0 auto 35px;
 }
 
-body{ height: 100%; background-color: white;}
-
-
-
-.content h2 {
-    text-align: center;
-    top: 10px;
-
-
+.footer
+{
+	position: fixed;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	background-color: #94A7AE;
 }
 
-body .typewriter {
-    display: flex;
+.footer #gauche
+{
+	position: absolute;
+	left: 0%;
 }
+
+.footer #center
+{
+	text-align: center;
+}
+
+.footer #right
+{
+	position: absolute;
+	right: 0%;
+}
+
+body
+{
+	height: 100%;
+	background-color: white;
+}
+
+.content h2
+{
+	text-align: center;
+	top: 10px;
+}
+
+body .typewriter
+{
+	display: flex;
+}
+
 /* GLOBAL STYLES */
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1
+{
+	color: rgb(19, 17, 17);
+	font-family: monospace;
+	overflow: hidden;
+	/* Ensures the content is not revealed until the animation */
+	white-space: nowrap;
+	/* Keeps the content on a single line */
+	margin: 0 auto;
+	/* Gives that scrolling effect as the typing happens */
+	letter-spacing: .15em;
+	/* Adjust as needed */
+	animation:typing 3.5s steps(30, end),blink-caret .15s step-end infinite;
+}
 
-  
-  /* DEMO-SPECIFIC STYLES */
-  .typewriter h1 {
-    color: rgb(19, 17, 17);
-    font-family: monospace;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(30, end),
-      blink-caret .15s step-end infinite;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
+/* The typing effect */
+@keyframes typing
+{
+	from
+	{
+	width: 0 }
+
+	to
+	{
+	width: 100% }
+
+}
 
 /**/
-.animation-area {
-    background: linear-gradient(to left, #18181e, #18181e);
-    width: 100%;
-    height: 100vh;
-    z-index: 0;
-    position: absolute;
-    top: 0%;
-    height: 250;
+.animation-area
+{
+	background: linear-gradient(to left, #18181e, #18181e);
+	width: 100%;
+	height: 100vh;
+	z-index: 0;
+	position: absolute;
+	top: 0%;
+	height: 250;
 }
-.box-area {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: -1;
+
+.box-area
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: -1;
 }
-.box-area li {
-    position: absolute;
+
+.box-area li
+{
+	position: absolute;
+	display: block;
+	list-style: none;
+	width: 25px;
+	height: 25px;
+	background: rgba(255, 255, 255, 0.2);
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+}
+
+.box-area li:nth-child(1)
+{
+	left: 86%;
+	width: 80px;
+	height: 80px;
+	animation-delay: 0s;
+	animation-duration: 5s;
+	background: #cb0a31;
+	opacity: 0.1;
+}
+
+.box-area li:nth-child(2)
+{
+	left: 12%;
+	width: 30px;
+	height: 30px;
+	animation-delay: 1.5s;
+	animation-duration: 5s;
+	background: #cb0a31;
+	opacity: 0.1;
+}
+
+.box-area li:nth-child(3)
+{
+	left: 70%;
+	width: 100px;
+	height: 100px;
+	animation-delay: 5.5s;
+	animation-duration: 5s;
+	background: #cb0a31;
+	opacity: 0.1;
+}
+
+.box-area li:nth-child(4)
+{
+	left: 42%;
+	width: 150px;
+	height: 150px;
+	animation-delay: 0s;
+	animation-duration: 5s;
+	background: #cb0a31;
+	opacity: 0.1;
+}
+
+.box-area li:nth-child(5)
+{
+	left: 65%;
+	width: 40px;
+	height: 40px;
+	animation-delay: 0s;
+	animation-duration: 5s;
+	background: #cb0a31;
+	opacity: 0.1;
+}
+
+.box-area li:nth-child(6)
+{
+	left: 15%;
+	width: 110px;
+	height: 110px;
+	animation-delay: 3.5s;
+	animation-duration: 5s;
+	background: #cb0a31;
+	opacity: 0.1;
+}
+
+@keyframes animate
+{
+	0%
+	{
+		transform: translateY(0) rotate(0deg);
+		opacity: 0,5;
+	}
+
+	100%
+	{
+		transform: translateY(-800px) rotate(360deg);
+		opacity: 0;
+	}
+}
+
+.gif
+{
     display: block;
-    list-style: none;
-    width: 25px;
-    height: 25px;
-    background: rgba(255, 255, 255, 0.2);
-    animation: animate 20s linear infinite;
-    bottom: -150px;
-}
-.box-area li:nth-child(1) {
-    left: 86%;
-    width: 80px;
-    height: 80px;
-    animation-delay: 0s;
-    animation-duration: 5s;
-    background: #cb0a31;
-    opacity: 0.1;
-}
-.box-area li:nth-child(2) {
-    left: 12%;
-    width: 30px;
-    height: 30px;
-    animation-delay: 1.5s;
-    animation-duration: 5s;
-    background: #cb0a31;
-    opacity: 0.1;
-}
-.box-area li:nth-child(3) {
-    left: 70%;
-    width: 100px;
-    height: 100px;
-    animation-delay: 5.5s;
-    animation-duration: 5s;
-    background: #cb0a31;
-    opacity: 0.1;
-}
-.box-area li:nth-child(4) {
-    left: 42%;
-    width: 150px;
-    height: 150px;
-    animation-delay: 0s;
-    animation-duration: 5s;
-    background: #cb0a31;
-    opacity: 0.1;
-}
-.box-area li:nth-child(5) {
-    left: 65%;
-    width: 40px;
-    height: 40px;
-    animation-delay: 0s;
-    animation-duration: 5s;
-    background: #cb0a31;
-    opacity: 0.1;
-}
-.box-area li:nth-child(6) {
-    left: 15%;
-    width: 110px;
-    height: 110px;
-    animation-delay: 3.5s;
-    animation-duration: 5s;
-    background: #cb0a31;
-    opacity: 0.1;
-}
-@keyframes animate {
-    0% {
-        transform: translateY(0) rotate(0deg);
-        opacity: 0,5;
-    }
-    100% {
-        transform: translateY(-800px) rotate(360deg);
-        opacity: 0;
-    }
-
-}
-
-.gif {
-    width: 28%;
-    position: absolute;
-    top: 110px;
+    width: 20%;
+    margin: 0 auto 35px;  
+	margin-top: 10px; 
     border-radius: 15px;
-    cursor: pointer;
-    left: 50%;
-    transform: translateX(-50%);
 }
